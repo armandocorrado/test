@@ -1,0 +1,544 @@
+<!-- Modal -->
+<div class="modal fade" id="homeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-light" id="exampleModalLabel">  <span class="material-symbols-outlined" data-placement="top" data-toggle="tooltip" title="Dettaglio table" aria-hidden="true">
+                            list_alt
+                            </span></h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+<div clas="container">
+        <div class="modal-body">
+     
+
+
+
+
+<h5 class="text-center header-collapse" data-toggle="collapse" href="#collapsePrimaFila" role="button" aria-expanded="true" aria-controls="collapseExample">
+  
+    <div class="row">
+      <div class="col">Tipo pagamento</div>
+      <div class="col">Stato pagamento</div>
+      <div class="col">Saldo incassi</div>
+      <div class="col">Descr. linea</div>
+      <div class="col">Descr. ubicazione</div>
+      <div class="col">Parcheggio</div>
+      <div class="col">Marca</div>
+      <div class="col">Modello</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapsePrimaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Tipo pagamento</label> -->
+    <input type="text" name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Stato pagamento</label> -->
+    <input type="text" id="" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Saldo incassi</label> -->
+    <input type="text"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Descr. linea</label> -->
+    <input type="text"  id="linea" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Descr. ubicazione</label> -->
+    <input type="text" id="descrUbicazioni"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Parcheggio</label> -->
+    <input type="text"  id="parcheggio" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Marca</label> -->
+    <input type="text" id="marca"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Modello</label> -->
+    <input type="text" id="modello"  name=""  readonly>
+    </div>
+</div>
+
+</div>     
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseSecondaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Telaio</div>
+      <div class="col">Targa</div>
+      <div class="col">Status veicolo</div>
+      <div class="col">Data conf.</div>
+      <div class="col">Data ass.</div>
+      <div class="col">Data arr.</div>
+      <div class="col">Sede</div>
+      <div class="col">Venditore</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapseSecondaFila">
+<div class="row linea-row">
+
+<div class="col input-data">
+ <!-- <label class="d-block">Telaio</label> -->
+ <input type="text" id="telaio" name="" readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block">Targa</label> -->
+ <input type="text" id="targa" name=""  readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block">Status veicolo</label> -->
+ <input type="text" id="status"  name=""  readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block ">Data conf.</label> -->
+ <input type="text" id="dataConferma" name=""  readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block">Data ass.</label> -->
+ <input type="text" id="dataAssegnazione"  name=""  readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block">Data arr.</label> -->
+ <input type="text" id="dataArrivo"  name=""  readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block">Sede</label> -->
+ <input type="text" id="codSede" name=""  readonly>
+ </div>
+ <div class="col input-data">
+ <!-- <label class="d-block bg-danger">Venditore</label> -->
+ <input type="text" id="venditore"  name=""  readonly>
+ </div>
+</div>
+</div>
+
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseTerzaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Segnalatore</div>
+      <div class="col">Data contratto</div>
+      <div class="col">N. contratto</div>
+      <div class="col">Rag. soc.</div>
+      <div class="col">Data fattura a</div>
+      <div class="col">Data prev. arr.</div>
+      <div class="col">Data richiesta precons.</div>
+      <div class="col">Data prev. ritiro conf.</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapseTerzaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block">Segnalatore</label> -->
+    <input type="text" id="segnalatore" name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data contratto</label> -->
+    <input type="text" id="dataContratto"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">N. contratto</label> -->
+    <input type="text" id="numeroContratto" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Rag. soc.</label> -->
+    <input type="text" id="ragioneSociale"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data fattura a</label> -->
+    <input type="text" id="dataFatturaA" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data prev. arr.</label> -->
+    <input type="text" id="dataPrevistoArrivo"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data richiesta precons.</label> -->
+    <input type="text"  id="dataRichPreconsegna" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data prev. ritiro conf.</label> -->
+    <input type="text" id="dataPrevRitiroConf" name=""  readonly>
+    </div>
+</div>
+</div>     
+
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseQuartaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Data rich. trasporto</div>
+      <div class="col">Data vendibilità</div>
+      <div class="col">N. ord. comm.</div>
+      <div class="col">Giorni giacenza</div>
+      <div class="col">Campagne att.</div>
+      <div class="col">Data rep. ritiro1</div>
+      <div class="col">Num fattura a</div>
+      <div class="col">Numero ocf</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapseQuartaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block">Data rich. trasporto</label> -->
+    <input type="text" id="dataRichTrasporto" name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Data vendibilità</label> -->
+    <input type="text"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">N. ord. comm.</label> -->
+    <input type="text" id="numOrdineCommerciale" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Giorni giacenza</label> -->
+    <input type="text" id="ggGiacenza"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Campagne att.</label> -->
+    <input type="text" id="campagneAttive"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data rep. ritiro</label> -->
+    <input type="text"  id="dataRepertorioRitiro" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Num fattura a</label> -->
+    <input type="text" id="numFatturaA"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Numero ocf</label> -->
+    <input type="text" id="numeroOcf"  name=""  readonly>
+    </div>
+</div>
+</div>
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseQuintaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Data ocf</div>
+      <div class="col">Data produzione</div>
+      <div class="col">Sett. prev. arrivo</div>
+      <div class="col">Sett. conf. produzione</div>
+      <div class="col">Data ok preparatore</div>
+      <div class="col">Data rich. mapo.</div>
+      <div class="col">Note preparatore</div>
+      <div class="col">Status lavorazione</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapseQuintaFila">
+  <div class="row linea-row ">
+    <div class="col input-data">
+    <!-- <label class="d-block">Data ocf</label> -->
+    <input type="text" id="dataOcf" name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data produzione</label> -->
+    <input type="text"  id="dataProduzione" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Sett. prev. arrivo</label> -->
+    <input type="text" id="settPrevArrivo"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Sett. conf. produzione</label> -->
+    <input type="text" id="settConfProd" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data ok preparatore</label> -->
+    <input type="text" id="dataOkPreparatore"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Data rich. mapo.</label> -->
+    <input type="text" id="dataRichMapo"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Note preparatore</label> -->
+    <input type="text"  id="notePreparatore" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Status lavorazione</label> -->
+    <input type="text" id=""  name=""  readonly>
+    </div>
+</div>
+</div>     
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseSestaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Cartellino</div>
+      <div class="col">Cod. iniziat. preq</div>
+      <div class="col">Tot. iniziat. preq.</div>
+      <div class="col">Importo assegnato</div>
+      <div class="col">Importo optionals ass.</div>
+      <div class="col">Elenco descr. acc.</div>
+      <div class="col">Pren. trasf. visib.</div>
+      <div class="col">Trasf. prenot.</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapseSestaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block">Cartellino</label> -->
+    <input type="text" id="cartellino" name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Cod. iniziat. preq</label> -->
+    <input type="text" id="codIniziativePreq"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Tot. iniziat. preq.</label> -->
+    <input type="text" id="totIniziativaPreq"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Importo assegnato</label> -->
+    <input type="text" id="importoAssegnato"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Importo optionals ass.</label> -->
+    <input type="text" id="importoOptionalsAssegnato"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Elenco descr. acc.</label> -->
+    <input type="text" id="elencoDescrAccessori"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Pren. trasf. visib.</label> -->
+    <input type="text" id="preTransfVib"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Trasf. prenot.</label> -->
+    <input type="text" id="transfPrenot"   name=""  readonly>
+    </div>
+</div>
+</div>
+
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseSettimaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Data del transf.</div>
+      <div class="col">Ubi. del transf.</div>
+      <div class="col">Numero foto</div>
+      <div class="col">Prezzo veicolo</div>
+      <div class="col">Prezzo optional</div>
+      <div class="col">Classe segmento</div>
+      <div class="col">Data scad. conf.</div>
+      <div class="col">Giorni scadenza</div>
+   
+   </div>
+</h5>
+<div class="collapse" id="collapseSettimaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Data del transf.</label> -->
+    <input type="text" id="dataTransf"  name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Ubi. del transf.</label> -->
+    <input type="text" id="ubicazione"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Numero foto</label> -->
+    <input type="text" id="numeroFoto"   name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Prezzo veicolo</label> -->
+    <input type="text" id="prezzoAziendale" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block d-none">Prezzo optional</label> -->
+    <input type="text" id="prezzoOpt"   name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Classe segmento</label> -->
+    <input type="text" id="classeSegmento"   name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Data scad. conf.</label> -->
+    <input type="text" id="dataScadConf"   name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Giorni scadenza</label> -->
+    <input type="text" id="giorniScad"   name=""  readonly>
+    </div>
+</div>
+</div>     
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseOttavaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">
+ <div class="row">
+      <div class="col">Status allestimenti</div>
+      <div class="col">Note fattura v</div>
+      <div class="col">Note</div>
+      <div class="col">Valid vend.</div>
+      <div class="col">Valid. resp. vend.</div>
+      <div class="col">Cod. tipo vend.</div>
+      <div class="col">Tipo vendita</div>
+      <div class="col">Note resp. vendit.</div>
+   
+   </div>
+</h5>
+
+<div class="collapse" id="collapseOttavaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Status allestimenti</label> -->
+    <input type="text" id="statusAllestimenti"  name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Note fattura v</label> -->
+    <input type="text" id="noteFattura" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Note</label> -->
+    <input type="text" id="noteFatt"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Valid vend.</label> -->
+    <input type="text" id="validVend"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Valid. resp. vend.</label> -->
+    <input type="text" id="validRespVend"   name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Cod. tipo vend.</label> -->
+    <input type="text" id="codTipoVend"   name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Tipo vendita</label> -->
+    <input type="text" id="tipoVend"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Note resp. vendit.</label> -->
+    <input type="text" id="noteRespVend"   name=""  readonly>
+    </div>
+</div>
+</div>
+
+<h5 class="text-center header-collapse" data-toggle="collapse"
+ href="#collapseNonaFila" role="button"
+ aria-expanded="true" aria-controls="collapseExample">   
+  <div class="row">
+      <div class="col">Data lav. backoffice</div>
+      <div class="col">Usato targa</div>
+      <div class="col">Cod. infocar</div>
+      <div class="col">Km percorsi</div>
+      <div class="col">Status ordine</div>
+      <div class="col">Tipo contratto</div>
+      <div class="col">Sett. conf.</div>
+      <div class="col">Data status lavorazione</div>
+      
+      
+   
+   </div>
+</h5>
+
+<div class="collapse" id="collapseNonaFila">
+<div class="row linea-row">
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Data lav. backoffice</label> -->
+    <input type="text" id="backoffice" name="" readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Usato targa</label> -->
+    <input type="text" id="usatoTarga"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Cod. infocar</label> -->
+    <input type="text" id="codInfocar" name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block">Km percorsi</label> -->
+    <input type="text" id="kmPercorsi"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Usato num.foto</label> -->
+    <input type="text" id="statusOrdine"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Usato num.foto</label> -->
+    <input type="text" id="tipoContratto"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Usato num.foto</label> -->
+    <input type="text" id="settConf"  name=""  readonly>
+    </div>
+    <div class="col input-data">
+    <!-- <label class="d-block bg-danger">Usato num.foto</label> -->
+    <input type="text" id="dataStatusLavorazione"  name=""  readonly>
+    </div>
+   
+   
+</div>
+</div>
+
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary mx-auto" style="font-size: 11px" data-dismiss="modal">Chiudi</button>
+          
+        </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('#deltaDatiDettagliDataTable').DataTable();
+    });
+</script>
+
+  <script>
+    $('select').change(function() {
+var op =$(this).val();
+if(op !='') {                 
+    $('input').prop('disabled',false);
+} else {
+    $('input').prop('disabled', true);
+}   
+});
+  </script>
+
+
+
+<script>
+  AOS.init({
+    duration:5000
+  });
+</script>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+
+
